@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1082481228050",
+    "firebase_url": "https://puzzles-f8567-default-rtdb.firebaseio.com",
+    "project_id": "puzzles-f8567",
+    "storage_bucket": "puzzles-f8567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082481228050:android:03e2b72fc69d8ce0e19bcb",
+        "android_client_info": {
+          "package_name": "com.example.payment_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082481228050-ui4bbhtnpjvpdoc9jernmfqteegpg6b0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payment_app",
+            "certificate_hash": "99fad072e0b08abfbf8b174db3e57fcad153b22f"
+          }
+        },
+        {
+          "client_id": "1082481228050-rnk3g2aorm8f44718rk26epojromtnhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFea2w5yk4zyfZEcdMfkEH39M8DnIiXtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082481228050-rnk3g2aorm8f44718rk26epojromtnhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
