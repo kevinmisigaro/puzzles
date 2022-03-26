@@ -3,7 +3,9 @@ Email: kunbata93@gmail.com
 Skills: PHP, Javascript, Dart, Firebase, Git, MySQL, Postgres
 
 
-Name: 
+Name: Daniel Mbalyo
+Email: danmbalyo@gmail.com
+Skills: Flutter, Django
 
 
 Name: Hans Mattunda
