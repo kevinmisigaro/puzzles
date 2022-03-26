@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Payment Application',
       theme: ThemeData(
-        primaryColor: Color(0xff8bc34a),
+        primaryColor: const Color(0xff8bc34a),
         canvasColor: Colors.transparent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: Colors.white,
       ),
       debugShowCheckedModeBanner: false,
-      home: LaunchPage(),
+      home: const LaunchPage(),
     );
   }
 }

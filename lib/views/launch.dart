@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:payment_app/views/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -17,6 +15,7 @@ class _LaunchPageState extends State<LaunchPage> {
   @override
   void initState() {
     checkData();
+    super.initState();
   }
 
   void checkData() async {
@@ -39,11 +38,17 @@ class _LaunchPageState extends State<LaunchPage> {
             children: [
               SizedBox(height: MediaQuery.of(context).size.height * .70,),
               Container(width: width * .85, decoration: BoxDecoration(borderRadius: BorderRadius.circular(5.0), 
-                  color: Color(0xFFD3D3D3), ),
-                  child: Padding(padding: EdgeInsets.only(left: 12),
+                  color: const Color(0xFFD3D3D3), ),
+                  child: Padding(padding: const EdgeInsets.only(left: 12),
                   child: TextFormField(controller: nameController, keyboardType: TextInputType.text, 
-                    style : TextStyle(fontSize: 14.0, color: Color(0xFF3A3A3A)), decoration: InputDecoration(border: InputBorder.none, 
-                    labelStyle: TextStyle(fontSize: 14.0, color: Color(0xFF3A3A3A), fontWeight: FontWeight.w600,), labelText: "User Name",
+                    style : const TextStyle(fontSize: 14.0, color: Color(0xFF3A3A3A)), decoration: const InputDecoration(
+                      border: InputBorder.none, 
+                    labelStyle: TextStyle(
+                      fontSize: 14.0, 
+                      color: Color(0xFF3A3A3A), 
+                      fontWeight: FontWeight.w600,
+                      ), 
+                  labelText: "User Name",
                   ),),),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * .02,),
@@ -58,7 +63,7 @@ class _LaunchPageState extends State<LaunchPage> {
                   decoration: BoxDecoration(borderRadius: BorderRadius.circular(25.0),
                     color: Theme.of(context).primaryColor,
                   ),
-                  child: Text('Save', style: TextStyle( fontFamily: 'Euclid Circular A',
+                  child: const Text('Save', style: TextStyle( fontFamily: 'Euclid Circular A',
                     fontSize: 16.0, color: Colors.white, fontWeight: FontWeight.w600,
                     ),
                   ),

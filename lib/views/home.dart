@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     getData();
+    super.initState();
   }
 
   void getData() async {
@@ -34,16 +35,16 @@ class _HomePageState extends State<HomePage> {
         fontSize: 32.0, color: Theme.of(context).primaryColor, fontWeight: FontWeight.w600, ),),
         toolbarHeight: height * .08, 
         bottom: TabBar(
-          labelColor: Color(0xFF3A3A3A), indicatorColor: Theme.of(context).primaryColor,
-            labelStyle: TextStyle(fontFamily: 'Euclid Circular A', fontSize: 20.0,
+          labelColor: const Color(0xFF3A3A3A), indicatorColor: Theme.of(context).primaryColor,
+            labelStyle: const TextStyle(fontFamily: 'Euclid Circular A', fontSize: 20.0,
              color: Colors.white, ),
-            tabs: [
+            tabs: const [
               Tab(text: "Payments"),
               Tab(text: "Orders"),
             ],
           ),
       ),
-      body: TabBarView(
+      body: const TabBarView(
         children: <Widget>[ 
           ClientPage(),
           SellerPage()
