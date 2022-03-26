@@ -6,4 +6,6 @@ Skills: PHP, Javascript, Dart, Firebase, Git, MySQL, Postgres
 Name: 
 
 
-Name:
+Name: Hans Mattunda
+Email: mattundahans@gmail.com
+Skills: JavaScript, Java, python, C, Blockchain,MySQL
