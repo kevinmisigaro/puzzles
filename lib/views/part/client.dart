@@ -26,7 +26,7 @@ class _ClientPageState extends State<ClientPage> {
               ),
             ),
             ListView.builder(
-              physics: ScrollPhysics(),
+              physics: const ScrollPhysics(),
               // controller: scrollController,
               shrinkWrap: true, primary: false,
               itemCount: 4,
@@ -47,7 +47,7 @@ class _ClientPageState extends State<ClientPage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Theme.of(context).primaryColor, child: Icon(Icons.qr_code_scanner),
+        backgroundColor: Theme.of(context).primaryColor, child: const Icon(Icons.qr_code_scanner),
         onPressed: () {
           Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ScanPage()));
         },
